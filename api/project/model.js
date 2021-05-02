@@ -5,7 +5,6 @@ module.exports = {
     find,
     findById,
     getResources,
-    getTasks
 }
 
 function find() {
@@ -22,6 +21,3 @@ function getResources(){
     return db('resources')
 }
 
-function getTasks(){
-    return db('tasks')
-}
